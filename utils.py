@@ -4,7 +4,7 @@ from workingcode import youtube_search_keyword
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "assignment-psydel-da7b8d90b0e7.json"
 
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://youtubebot:cnC4.H62_XThAv5@cluster0-xhmtv.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient(url here)
 db=client.get_database("youtubebotname")
 records = db.userdata
 
